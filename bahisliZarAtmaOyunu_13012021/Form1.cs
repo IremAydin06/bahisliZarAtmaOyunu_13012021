@@ -97,7 +97,7 @@ namespace bahisliZarAtmaOyunu_13012021
             int bakiye2 = Convert.ToInt32(zarOyunu.IkinciOyuncu.AnaBakiye.ToString());
             if (bakiye1 < 0 || bakiye1 == 0)
             {
-                 DialogResult bitti = MessageBox.Show($"{zarOyunu.BirinciOyuncu.Ad} iflas etti. Oyunu {zarOyunu.IkinciOyuncu.Ad} oyunu kazandı. ");
+                 DialogResult bitti = MessageBox.Show($"{zarOyunu.BirinciOyuncu.Ad} iflas etti. Oyunu {zarOyunu.IkinciOyuncu.Ad} kazandı. ");
                  if (bitti == DialogResult.OK)
                  {
                     Application.Exit();
@@ -105,7 +105,7 @@ namespace bahisliZarAtmaOyunu_13012021
             }
             else if (bakiye2 < 0 || bakiye2 == 0)
             {
-                 DialogResult bitti = MessageBox.Show($"{zarOyunu.IkinciOyuncu.Ad} iflas etti. Oyunu {zarOyunu.BirinciOyuncu.Ad} oyunu kazandı. ");
+                 DialogResult bitti = MessageBox.Show($"{zarOyunu.IkinciOyuncu.Ad} iflas etti. Oyunu {zarOyunu.BirinciOyuncu.Ad} kazandı. ");
                   if (bitti == DialogResult.OK)
                 {
                     Application.Exit();
