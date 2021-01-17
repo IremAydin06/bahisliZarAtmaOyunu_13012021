@@ -29,6 +29,7 @@ namespace bahisliZarAtmaOyunu_13012021
          * Zarlar karşılaştırılır.
          * Büyük atan kazanır.
          * Bahis oynanan miktar kazananın bakiyesine eklenir.
+         * Bakiyesi sıfırlanan ya da eksiye düşen iflas eder.
          * Nesneler: oyun, oyuncu, zar
          */
         }
